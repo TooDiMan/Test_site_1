@@ -1,0 +1,1 @@
+$( "<span class="cart-norm-qty hidden-xs hidden-sm">Товаров 0 (0.00 ₽)</span>" ).replaceWith( $( "<span class="cart-norm-qty hidden-xs hidden-sm" style= "display:none" >Товаров 0 (0.00 ₽)</span>" ) );
