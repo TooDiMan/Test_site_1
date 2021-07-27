@@ -1,1 +1,12 @@
-$( "<span class="cart-norm-qty hidden-xs hidden-sm">Товаров 0 (0.00 ₽)</span>" ).replaceWith( $( "<span class="cart-norm-qty hidden-xs hidden-sm" style= "display:none" >Товаров 0 (0.00 ₽)</span>" ) );
+window.onload=function(){
+    var 
+    d=document.createElement('div');
+    d.className='container';
+    d.style.width='1400px';
+    d.style.height='auto';
+    d.style.background='gray';
+    document.body.appendChild(d);
+    }
+$('section').append('<div class="container">');
+
+
